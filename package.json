@@ -7,7 +7,8 @@
   "rupeeFormatter.js"
   ],
   "scripts": {
-    "test": "mocha -w --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register",
+    "test-dev": "mocha -w --compilers js:babel-register"
   },
   "repository": {
     "type": "git",

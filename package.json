@@ -1,0 +1,33 @@
+{
+  "name": "pos-amount-formatter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "posAmountFormatter.js",
+  "files": [
+  "rupeeFormatter.js"
+  ],
+  "scripts": {
+    "test": "mocha -w --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chsisodiya/pos-amount-formatter.git"
+  },
+  "keywords": [
+  "pos",
+  "formatter"
+  ],
+  "author": "Chetan Sisodiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chsisodiya/pos-amount-formatter/issues"
+  },
+  "homepage": "https://github.com/chsisodiya/pos-amount-formatter#readme",
+  "devDependencies": {
+  "babel-cli": "^6.24.1",
+  "babel-preset-env": "^1.5.2",
+  "babel-register": "^6.24.1",
+  "mocha": "^3.4.2",
+  "nodemon": "^1.11.0"
+}
+}
